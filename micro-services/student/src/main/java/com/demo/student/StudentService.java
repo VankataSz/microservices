@@ -13,9 +13,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class StudentService {
 
-    // Here we inject our student repository
-    private final StudentRepository studentRepository;
-
     private final StudentRepository repository;
 
     public void saveStudent(Student student) {
